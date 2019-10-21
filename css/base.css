@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  width: 960px;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  body {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
