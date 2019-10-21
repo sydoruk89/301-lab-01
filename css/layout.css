@@ -15,6 +15,7 @@ header div {
   width: 960px;
   height: 100px;
   border-bottom: none;
+  background-color: #2ecc71;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   header div {
@@ -22,6 +23,7 @@ header div {
     height: 75px;
     border-bottom: none;
     float: none;
+    background-color: #e74c3c;
   }
 }
 
@@ -29,6 +31,7 @@ header div {
   width: 200px;
   height: 600px;
   float: left;
+  background-color: #3498db;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -37,6 +40,7 @@ header div {
     height: 150px;
     border-bottom: none;
     float:none;
+    background-color: #1abc9c;
   }
 }
 .c{
@@ -44,6 +48,7 @@ header div {
   height: 200px;
   float: left;
   border-left: none;
+  background-color: #f1c40f;
 }
 
 .d {
@@ -51,6 +56,7 @@ header div {
   height: 200px;
   float:left;
   border-left: none;
+  background-color: #d35400;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -60,8 +66,12 @@ header div {
     float: none;
     clear: both;
   }
+  .c {
+    background-color: #fdcb6e;
+  }
   .d {
     border-top: none;
+    background-color: #8e44ad;
   }
 }
 
@@ -70,24 +80,28 @@ header div {
   width: 190px;
   height: 250px;
   float: left;
+  background-color: #27ae60;
 }
 
 .f {
   width: 190px;
   height: 250px;
   float: left;
+  background-color: #bdc3c7;
 }
 
 .g {
   width: 190px;
   height: 250px;
   float:left;
+  background-color: #e17055;
 }
 
 .h {
   width: 190px;
   height: 250px;
   float: left;
+  background-color: #81ecec;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -95,23 +109,27 @@ header div {
     width: 240px;
     height: 250px;
     float: left;
+    background-color: #74b9ff;
   }
   .f {
     width: 240px;
     height: 250px;
     float: left;
     clear: right;
+    background-color: #00cec9;
   }
   .g {
     width: 240px;
     height: 250px;
     clear: left;
     float: left;
+    background-color: #fd79a8;
   }
   .h {
     width: 240px;
     height: 250px;
     float: left;
+    background-color: #e17055;
   }
 }
 
@@ -119,6 +137,7 @@ header div {
   width: 760px;
   height: 150px;
   float: left;
+  background-color: #0984e3;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -127,5 +146,6 @@ header div {
     height: 80px;
     float: none;
     clear:both;
+    background-color: #d63031;
   }
 }
