@@ -1,18 +1,25 @@
 *{
   box-sizing: border-box;
-  font-size: 18px;
+}
+
+html{
+  font-size: 62.5%;
 }
 
 body {
-  width: 960px;
+  width: 96rem;
   margin: 0px auto;
   padding: 0px;
   font-family: 'Times New Roman', Times, serif;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){
+:root{
+  --div-background-color: #2ecc71;
+  }
+
+@media only screen and (max-width: 767px){
   body {
-    width: 480px;
+    width: 48rem;
     margin: 0 auto;
   }
 }

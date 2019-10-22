@@ -1,43 +1,40 @@
-div {
-  text-align: center;
-}
-header div {
-  line-height: 100px;
-}
-@media only screen and (min-width: 480px) and (max-width: 767px){
+/* mobile style */
+@media screen and (max-width: 767px){
+  div {
+    text-align: center;
+  }
   header div {
-    line-height: 75px;
+    line-height: 7.5rem;
   }
-}
-
-.b {
-  line-height: 600px;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
   .b {
-    line-height: 150px;
+    line-height: 15rem;
   }
-}
-
-.c, .d {
-  line-height: 200px;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
   .c, .d {
-    line-height: 125px;
+    line-height: 12.5rem;
+  }
+  .i {
+    line-height: 8rem;
   }
 }
 
-.e, .f, .g, .h {
-  line-height: 250px;
-}
-.i {
-  line-height: 150px;
-}
-@media only screen and (min-width: 480px) and (max-width: 767px){
+/* desktop style */
+@media screen and (min-width: 767px){
+  div {
+    text-align: center;
+  }
+  header div {
+    line-height: 10rem;
+  }
+  .b {
+    line-height: 60rem;
+  }
+  .c, .d {
+    line-height: 20rem;
+  }
+  .e, .f, .g, .h {
+    line-height: 25rem;
+  }
   .i {
-    line-height: 80px;
+    line-height: 15rem;
   }
 }
