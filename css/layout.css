@@ -1,68 +1,32 @@
-div {
-  border: solid 1px;
-  background-color: #ccc;
-}
 
-.e, .f, .g, .h, .i {
-  border-left: none;
-  border-top: none;
-}
-header {
-  width: 100%;
-}
-
-header div {
-  width: 960px;
-  height: 100px;
-  border-bottom: none;
-  background-color: #2ecc71;
-}
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+  div {
+    border: solid 1px;
+    font-size: 180%;
+  }
   header div {
-    width: 480px;
-    height: 75px;
+    width: 48rem;
+    height: 7.5rem;
     border-bottom: none;
     float: none;
     background-color: #e74c3c;
   }
-}
 
-.b {
-  width: 200px;
-  height: 600px;
-  float: left;
-  background-color: #3498db;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .e, .f, .g, .h, .i {
+    border-left: none;
+    border-top: none;
+  }
+  
   .b{
-    width: 480px;
-    height: 150px;
+    width: 48rem;
+    height: 15rem;
     border-bottom: none;
     float:none;
     background-color: #1abc9c;
   }
-}
-.c{
-  width: 380px;
-  height: 200px;
-  float: left;
-  border-left: none;
-  background-color: #f1c40f;
-}
-
-.d {
-  width: 380px;
-  height: 200px;
-  float:left;
-  border-left: none;
-  background-color: #d35400;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
   .c, .d {
-    width: 480px;
-    height: 125px;
+    width: 48rem;
+    height: 12.5rem;
     float: none;
     clear: both;
   }
@@ -73,79 +37,123 @@ header div {
     border-top: none;
     background-color: #8e44ad;
   }
-}
-
-
-.e {
-  width: 190px;
-  height: 250px;
-  float: left;
-  background-color: #27ae60;
-}
-
-.f {
-  width: 190px;
-  height: 250px;
-  float: left;
-  background-color: #bdc3c7;
-}
-
-.g {
-  width: 190px;
-  height: 250px;
-  float:left;
-  background-color: #e17055;
-}
-
-.h {
-  width: 190px;
-  height: 250px;
-  float: left;
-  background-color: #81ecec;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
   .e {
-    width: 240px;
-    height: 250px;
+    width: 24rem;
+    height: 25rem;
     float: left;
     background-color: #74b9ff;
   }
   .f {
-    width: 240px;
-    height: 250px;
+    width: 24rem;
+    height: 25rem;
     float: left;
     clear: right;
     background-color: #00cec9;
   }
   .g {
-    width: 240px;
-    height: 250px;
+    width: 24rem;
+    height: 25rem;
     clear: left;
     float: left;
     background-color: #fd79a8;
   }
   .h {
-    width: 240px;
-    height: 250px;
+    width: 24rem;
+    height: 25rem;
     float: left;
     background-color: #e17055;
   }
-}
-
-.i {
-  width: 760px;
-  height: 150px;
-  float: left;
-  background-color: #0984e3;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
   .i{
-    width: 480px;
-    height: 80px;
+    width: 48rem;
+    height: 8rem;
     float: none;
     clear:both;
     background-color: #d63031;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  div {
+    border: solid 1px;
+    font-size: 180%;
+  }
+
+  .e, .f, .g, .h, .i {
+    border-left: none;
+    border-top: none;
+  }
+  header {
+    width: 100%;
+  }
+
+  header div {
+    width: 96rem;
+    height: 10rem;
+    border-bottom: none;
+    background-color: var(--div-background-color);
+  }
+
+  .b {
+    width: 20rem;
+    height: 60rem;
+    float: left;
+    background-color: #3498db;
+  }
+
+
+  .c{
+    width: 38rem;
+    height: 20rem;
+    float: left;
+    border-left: none;
+    background-color: #f1c40f;
+  }
+
+  .d {
+    width: 38rem;
+    height: 20rem;
+    float:left;
+    border-left: none;
+    background-color: #d35400;
+  }
+
+
+
+
+  .e {
+    width: 19rem;
+    height: 25rem;
+    float: left;
+    background-color: #27ae60;
+  }
+
+  .f {
+    width: 19rem;
+    height: 25rem;
+    float: left;
+    background-color: #bdc3c7;
+  }
+
+  .g {
+    width: 19rem;
+    height: 25rem;
+    float:left;
+    background-color: #e17055;
+  }
+
+  .h {
+    width: 19rem;
+    height: 25rem;
+    float: left;
+    background-color: #81ecec;
+  }
+
+
+
+  .i {
+    width: 76rem;
+    height: 15rem;
+    float: left;
+    background-color: #0984e3;
   }
 }
